@@ -112,6 +112,7 @@ public class Hangman {
                 if (answer.equals("yes")) {
                     System.out.println("Good luck!");
                     game = game + 1;
+                    lives = 6;
                     playAgain = true;
                     counter = 0;
                     //switch players
